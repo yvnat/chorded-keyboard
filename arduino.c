@@ -240,17 +240,6 @@ void setup() {
     pinMode(9, INPUT_PULLUP);
     pinMode(11, INPUT_PULLUP);
 
-    //initialize serial and wait until it is initialized.
-    //this can be used to prevent spam in case of error
-    Serial.begin(9600);
-    while (!Serial) {
-        digitalWrite(13, HIGH);
-        delay(50);
-        digitalWrite(13, LOW);
-        delay(50);
-    }
-    Serial.println("Serial Connection Initialized");
-
     //begin the keyboard
     Keyboard.begin();
 }
@@ -290,9 +279,3 @@ void loop() {
     resolveAndKeyup(initialChord);
     goto hold;
 }
-
-/* 
-
-
-
- */
