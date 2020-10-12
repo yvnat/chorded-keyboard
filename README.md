@@ -8,4 +8,195 @@ My keyboard uses four columns of two keys each. Each column is composed of a hig
 
 The keyboard permits keystrokes with no minimum press length, as well as reliable sustained holding and releasing of keys. It supports this for combinations of keystrokes (such as Ctrl + C) as well, through the usage of a "combo" chord that demarkates combinations of keystrokes.
 
+# Chord Map
+These are the chords that correspond to each keystroke
+```
+O = pressed
+. = unpressed
+
+....
+...O : Right Arrow
+
+....
+..O. : Up Arrow
+
+....
+.O.. : Down Arrow
+
+....
+O... : Left Arrow
+
+...O 
+.... : 1
+
+..O. 
+.... : 2
+
+..OO 
+.... : 3
+
+.O.. 
+.... : 4
+
+.O.O 
+.... : 5
+
+.OO. 
+.... : 6
+
+.OOO 
+.... : 7
+
+O... 
+.... : 8
+
+O..O 
+.... : 9
+
+O.O. 
+.... : 0
+
+.... 
+..OO : Space
+
+.... 
+.O.O : Delete
+
+.... 
+O..O : Return
+
+.... 
+O.O. : Backspace
+
+.... 
+OO.. : Tab
+
+.... 
+OOOO : Combo
+
+..O. 
+.O.. : a
+
+.O.. 
+..OO : b
+
+.O.. 
+O..O : c
+
+..O. 
+OO.. : d
+
+..O. 
+...O : e
+
+.OO. 
+O... : f
+
+.O.. 
+...O : g
+
+..O. 
+O... : h
+
+..OO 
+.O.. : i
+
+..OO 
+OO.. : j
+
+..O. 
+O..O : k
+
+.O.. 
+O.OO : l
+
+.OOO 
+O... : m
+
+.OO. 
+O..O : n
+
+.OO. 
+...O : o
+
+.O.. 
+..O. : p
+
+...O 
+OOO. : q
+
+.O.. 
+O... : r
+
+..OO 
+O... : s
+
+..O. 
+.O.O : t
+
+..O. 
+OO.O : u
+
+.O.. 
+O.O. : v
+
+.O.O 
+O... : w
+
+.O.O 
+O.O. : x
+
+.O.O 
+..O. : y
+
+...O 
+OO.. : z 
+
+O... 
+.OO. : [
+
+O... 
+..OO : ]
+
+O... 
+...O : .
+
+O... 
+..O. : ,
+
+O... 
+.O.. : ;
+
+O... 
+.O.O : '
+
+O..O 
+.OO. : `
+
+O... 
+.OOO : /
+
+...O 
+O.O. : \
+
+O..O 
+..O. : Left GUI
+
+O..O 
+.O.. : Right GUI
+
+O.OO 
+.... : Left Alt
+
+OO.O 
+.... : Left Control
+
+OOO. 
+.... : Escape
+
+OOOO 
+.... : Capslock
+```
+# Circuit Diagram
+
 ![circuit diagram](https://github.com/yvnat/chorded-keyboard/blob/main/diagram.png)
